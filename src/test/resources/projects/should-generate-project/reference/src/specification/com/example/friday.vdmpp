@@ -1,0 +1,56 @@
+/*
+# This is a template specification file to illustrate where step specification files should be placed in a BDM project.
+# You can create a new .vdmpp file in this folder or rename and expand this file.
+
+# This is the specification file for the It is Friday example from Cucumber https://cucumber.io/docs/guides/10-minute-tutorial/ using the BDM approach.
+# Notice that this is a .vdmpp file and will be different from the .java file in the Cucumber example.
+# You are welcome to follow the above mentioned example to become familiar with how features, scenarios and step definitons work.
+*/
+
+/* 
+class Friday
+types
+
+public String = seq of char;
+
+instance variables 
+
+today    : String;
+operations
+
+public Friday: String ==> Friday
+Friday(str) ==
+( 
+  today := str;
+);
+
+
+public IsItFriday: () ==> String
+IsItFriday() ==
+(
+    if "Friday" = today 
+    then return "TGIF"
+    else return "Nope";
+);
+
+
+public ResultingThen: String ==> bool
+ResultingThen(str) == 
+(
+  if str = today 
+  then return true 
+  else return false
+);
+
+public SetToday: String ==> () 
+SetToday(str) ==
+(
+    today := str;
+);
+  
+pure public GetToday: () ==> String
+GetToday() ==
+  return today;
+  
+end Friday
+ */
