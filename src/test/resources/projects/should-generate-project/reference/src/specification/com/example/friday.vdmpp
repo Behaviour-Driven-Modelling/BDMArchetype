@@ -52,5 +52,5 @@ pure public GetToday: () ==> String
 GetToday() ==
   return today;
   
-end Friday
- */
+end Friday */
+

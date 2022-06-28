@@ -7,7 +7,7 @@
 # You are welcome to follow the above mentioned example to become familiar with how features, scenarios and step definitons work.
 */
 
-/* 
+
 class Friday
 types
 
@@ -53,4 +53,4 @@ GetToday() ==
   return today;
   
 end Friday
- */
+
